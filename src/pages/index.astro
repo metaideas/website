@@ -1,5 +1,5 @@
 ---
-import Layout from "../layouts/layout.astro";
+import Layout from "../layouts/layout.astro"
 ---
 
 <Layout title="Metaideas">
@@ -13,7 +13,7 @@ import Layout from "../layouts/layout.astro";
           class="isolate grid aspect-square w-[clamp(9rem,19vw,13rem)] place-items-center bg-[#D9FF4A]"
         >
           <img
-            class="h-auto w-[68%] animate-spin [animation-duration:60s] motion-reduce:animate-none dark:invert"
+            class="h-auto w-[68%] animate-spin [animation-duration:60s] motion-reduce:animate-none"
             src="/logo.svg"
             width="512"
             height="512"
@@ -21,7 +21,7 @@ import Layout from "../layouts/layout.astro";
           />
         </div>
         <p class="m-0 max-w-96 text-[clamp(1rem,1.5vw,1.125rem)] leading-[1.45]">
-          A software development company for humans and agents.
+          Developing better software<br />for humans and agents.
         </p>
       </div>
     </section>
@@ -30,10 +30,7 @@ import Layout from "../layouts/layout.astro";
       class="flex flex-wrap items-center justify-center gap-x-2.5 gap-y-2 px-5 pt-4 pb-[max(1rem,env(safe-area-inset-bottom))] text-center text-[0.9375rem] leading-[1.45]"
       aria-labelledby="company-name"
     >
-      <h1
-        class="m-0 whitespace-nowrap font-semibold tracking-tight"
-        id="company-name"
-      >
+      <h1 class="m-0 whitespace-nowrap font-semibold tracking-tight" id="company-name">
         Metaideas
       </h1>
 
@@ -47,15 +44,19 @@ import Layout from "../layouts/layout.astro";
 
       <a
         class="inline-flex w-fit touch-manipulation items-center whitespace-nowrap decoration-transparent decoration-2 underline-offset-4 transition-[text-decoration-color] duration-150 ease-in-out hover:decoration-[#D9FF4A] focus-visible:rounded-xs focus-visible:outline-2 focus-visible:outline-offset-3 motion-reduce:transition-none"
-        href="tel:+15512732773">+1 (551) 273-2773</a
+        href="tel:+15512732773"
       >
+        +1 (551) 273-2773
+      </a>
 
       <span class="text-neutral-300 dark:text-neutral-700" aria-hidden="true">|</span>
 
       <a
         class="inline-flex w-fit touch-manipulation items-center whitespace-nowrap decoration-transparent decoration-2 underline-offset-4 transition-[text-decoration-color] duration-150 ease-in-out hover:decoration-[#D9FF4A] focus-visible:rounded-xs focus-visible:outline-2 focus-visible:outline-offset-3 motion-reduce:transition-none"
-        href="mailto:hello@metaideas.io">hello@metaideas.io</a
+        href="mailto:hello@metaideas.io"
       >
+        hello@metaideas.io
+      </a>
     </footer>
   </main>
 </Layout>
