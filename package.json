@@ -2,6 +2,9 @@
   "name": "metaideas.io",
   "version": "0.0.1",
   "type": "module",
+  "imports": {
+    "#*": "./src/*"
+  },
   "scripts": {
     "analyze": "adamantite analyze",
     "astro": "astro",
