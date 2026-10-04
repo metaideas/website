@@ -2,6 +2,9 @@
   "name": "metaideas.io",
   "version": "0.0.1",
   "type": "module",
+  "imports": {
+    "#*": "./src/*"
+  },
   "scripts": {
     "analyze": "adamantite analyze",
     "astro": "astro",
@@ -9,7 +12,6 @@
     "check": "adamantite check",
     "dev": "astro dev",
     "fix": "adamantite fix",
-    "format": "adamantite format",
     "preview": "astro preview",
     "start": "astro dev"
   },
@@ -20,11 +22,11 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
-    "adamantite": "^0.33.2",
-    "knip": "6.29.0",
-    "oxfmt": "0.60.0",
-    "oxlint": "1.75.0",
-    "oxlint-tsgolint": "7.0.2001",
+    "adamantite": "^0.43.0",
+    "knip": "6.39.0",
+    "oxfmt": "0.71.0",
+    "oxlint": "1.86.0",
+    "oxlint-tsgolint": "7.0.2003",
     "typescript": "^7.0.2"
   },
   "engines": {
