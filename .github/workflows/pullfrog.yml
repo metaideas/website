@@ -31,6 +31,8 @@ jobs:
           node-version-file: package.json
       - name: Set up Bun
         uses: oven-sh/setup-bun@v2
+        with:
+          no-cache: true
       - name: Run agent
         uses: pullfrog/pullfrog@v0
         with:
